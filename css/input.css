@@ -26,7 +26,8 @@
 @media (max-width: 760px) {
     #social{
         position: absolute;
-        display: none;
+         display: none;
+        left: -20%;
     }
 }
 
@@ -46,6 +47,15 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+.btn{
+    position: absolute;
+    height: auto;
+}
+.navlinks:hover{
+        text-decoration: underline 1px solid grey;
+
 }
 
 #copyright{
