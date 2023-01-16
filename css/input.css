@@ -25,9 +25,9 @@
 }
 @media (max-width: 760px) {
     #social{
-        position: absolute;
+        /* position: absolute;
          display: none;
-        left: -20%;
+        left: -20%; */
     }
 }
 
@@ -41,7 +41,7 @@
     border-radius: 50%;
     height: 30px;
     width: 30px;
-    border: 1px solid yellow;
+    border: 1px solid #B97B1B;
 
     display: flex;
     align-items: center;
