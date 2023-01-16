@@ -19,6 +19,12 @@
     background-position: center;
     
 }
+#hero2{
+    background-image: url('/assets/Events Page/shop facad 1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 #info img{
     max-width: 220px;
  
@@ -77,6 +83,9 @@
 }
 .footerLogo{
     max-width: 150px;
+}
+#footerLog{
+    max-width: 100px;
 }
 .circle{
     border-radius: 50%;
