@@ -12,7 +12,8 @@ module.exports = {
       colors: {
         brightRed: 'hsl(12, 88%, 59%)',
         bronzeThick:  '#B97B1B',
-        bronzeLight: '#CA8F34'
+        bronzeLight: '#CA8F34',
+        lightGray: '#ADABAB'
 
       },
     },

@@ -2,8 +2,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
 *{
     box-sizing: border-box;
     padding: 0;
@@ -11,6 +9,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-family: 'Poppins';
+    text-size-adjust: none;
 }
 #hero{
     background-image: url('/assets/Hero img/Rema.jpg');
@@ -30,16 +29,28 @@
  
 }
 @media (max-width: 760px) {
-    #social{
-        /* position: absolute;
-         display: none;
-        left: -20%; */
+    .line,
+    .lineup{
+        display: none;
     }
+   
 }
 
 .logo{
     max-width: 100px;
 }
+.line{
+   height: 35px;
+   width: 1px;
+   border-left: 2px solid #B97B1B;
+
+}
+.lineup{
+    height: 1px;
+    width: 30px;
+    border-bottom: 2px solid white;
+    margin-top: 12px;
+ }
 .hamburger{
     cursor: pointer;
     width: 24px;

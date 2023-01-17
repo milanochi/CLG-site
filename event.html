@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/css/input.css" rel="stylesheet" />
-    <title>Chop Life</title>
+    <title>CLG - Chop Life Gang</title>
    
 </head>
 <body>
     <script defer src="script.js" type="module"></script>
      <!--NAVBAR-->
      <nav class="relative bg-black">
-        <div class=" container mx-auto flex items-center justify-between space-x-6">
+        <div class=" container px-6 mx-auto flex items-center justify-between space-x-6">
             <!---LOGO-->
             <div class="">
                 <img src="/assets/Events Page/eventsLogo.png" id="footerLog" alt="logo" />
@@ -22,28 +22,40 @@
                 <a href="aboutUs.html" class="text-white font-bold navlinks">ABOUT US</a>
                 <a href="event.html" class="text-white font-bold navlinks">EVENTS</a>
                 <a href="blogs.html" class="text-white font-bold navlinks">BLOGS</a>
-                   <!--BUTTON-->
-                   <div class="md:max-w-sm">
-                    <a href="#" ><button class="rounded-md bg-bronzeLight py-2 px-6 text-sm text-white font-bold" >BUY TICKETS</button>
-                </a>
-                </div>
             </div>
-
-                  <!--HAMBURGER MENU-->
-                  <button id="menu-btn" class="block hamburger md:hidden focus: outline-none">
-                    <span class="hamburger-top"></span>
-                    <span class="hamburger-middle"></span>
-                    <span class="hamburger-bottom"></span>
-                </button>
+                   <!--BUTTON-->
+                   <div>
+                    <div class="hidden md:max-w-sm md:block">
+                        <a href="#" ><button class="rounded-md bg-bronzeLight flex items-center space-x-2 px-3 py-2 md:text-xs text-white font-bold" >
+                            <img src="/assets/Events Page/Ticket Badge.svg" class="sm:h-4 md:h-6" alt="btnIcon" />
+                            <h2>BUY TICKETS</h2>
+                        </button>
+                    </a>
+                </div>
+                
+                      <!--HAMBURGER MENU-->
+                      <button id="menu-btn" class="block hamburger md:hidden focus: outline-none">
+                        <span class="hamburger-top"></span>
+                        <span class="hamburger-middle"></span>
+                        <span class="hamburger-bottom"></span>
+                    </button>
+                
+                   </div>
+                   
         </div>
-        
                 <!--MOBILE MENU-->
                 <div class="md:hidden">
-                    <div id="menu" class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-14 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                    <div id="menu" class="fixed flex-col items-center hidden self-end py-8 mt-10 space-y-14 font-bold bg-white sm:w-auto sm:self-center top-12 left-0 right-0 drop-shadow-lg">
                         <a href="index.html" >HOME</a>
                         <a href="aboutUs.html" >ABOUT US</a>
                         <a href="event.html" >EVENTS</a>
                         <a href="blogs.html" >BLOGS</a>
+                        <!--MOBILE  BUTTON-->
+                        <a href="#" ><button class="rounded-md bg-bronzeThick flex items-center space-x-2 px-3 py-2 md:text-xs text-white font-bold" >
+                            <img src="/assets/Events Page/Ticket Badge.svg" class="h-6" alt="btnIcon" />
+                            <h2>BUY TICKETS</h2>
+                        </button>
+                    </a>
                     </div>
                 </div>
  </nav>
@@ -60,6 +72,26 @@
                     </div>
                 </section>
 
+            <section class="bg-white">
+                            <!--FLEX CONTAINER-->
+                            <div class= "container items-center mx-auto space-y-8 py-12 px-6 flex flex-col justify-around md:space-y-0 md:items-start md:flex-row">
+                               
+                                    <h1 class="text-black font-bold text-4xl">Upcoming Events</h1>
 
+                                    <div class="flex items-center px-6">
+                                        <form class="space-x-2 md:space-x-8">
+                                            <select name="events" class="bg-lightGray rounded-md p-2 text-sm font-bold">
+                                                <option value="Event types">Event Types</option>
+                                                <option value="Event types">Match fest</option>
+                                            </select>
+
+                                            <select name="events" class="bg-lightGray rounded-md p-2 text-sm font-bold">
+                                                <option value="Event types">Any Category</option>
+                                                <option value="Event types">Back 2 School</option>
+                                            </select>
+                                  </form>
+                             </div>
+                         </div>
+            </section>
 </body>
 </html>
