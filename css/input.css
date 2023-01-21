@@ -36,6 +36,9 @@
     }
    
 }
+::placeholder{
+    font-size: 16px;
+}
 
 .logo{
     max-width: 100px;
