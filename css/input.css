@@ -9,7 +9,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-family: 'Poppins';
-    text-size-adjust: none;
+   
 }
 #hero{
     background-image: url('/assets/Hero img/Rema.jpg');
@@ -37,7 +37,7 @@
    
 }
 ::placeholder{
-    font-size: 16px;
+    text-size-adjust: none;
 }
 
 .logo{
