@@ -28,9 +28,7 @@
     max-width: 220px;
  
 }
-#sub{
-    font-size: .7em;
-}
+
 @media (max-width: 760px) {
     .line,
     .lineup{
